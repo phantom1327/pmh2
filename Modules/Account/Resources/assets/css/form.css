@@ -1,0 +1,94 @@
+.formcontainer
+{
+    width:100%;height: auto; background-color: white;position: absolute;top:0; border-radius: 4px;
+    box-shadow:  0px 0px 15px 10px rgba(52, 37, 255, 0.2);
+    border: 1px rgb(234 226 216);
+    color:#240746;
+    height: auto;
+    position: relative;
+}
+input {
+  width:100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 20px;
+  outline: 0;
+  font-family: 'Poppins';
+  color: blue;
+}
+input:focus {
+  border: 1px solid rgb(48, 13, 245);
+  border-radius: 3px;
+}
+form
+{
+margin: 4% 2%;
+}
+.formhalf
+{
+    display: flex;flex-direction: row;align-items: center;width:100%;margin-bottom: 5px;
+}
+.formhalf2
+{
+    display: flex;width:100%;margin-bottom: 5px;
+    flex-direction:column;width:40%; justify-content: center;
+}
+.formhalf2 *
+{
+    margin-bottom:10px ;
+}
+.inputarea
+{
+    flex: 1;display: flex;flex-direction: column;
+}
+.proceed
+{
+    padding: 15px 30px;
+    font-weight: 500;
+    background: #7450fe;
+    color: white;
+    border: none;
+    align-self: flex-end;
+    align-self: center;
+    width: 40%;
+}
+.proceed:hover
+{
+    color: white;
+    background: rgb(0, 194, 0);
+    cursor: pointer;
+}
+label
+{
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+#cp2{width: 100%;}
+@media only screen and (max-width: 600px) {
+
+  #cp,#logout
+  {
+      width: 90%;
+  }
+  .formhalf2
+  {
+      width: 90%;
+  }
+
+}
+
+.input,.button
+{
+    flex:1;display: flex;
+}
+.button
+{
+    justify-content: flex-end;
+}
+.input
+{
+    justify-content: flex-start;
+}
